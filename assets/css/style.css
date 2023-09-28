@@ -1755,7 +1755,7 @@ ul {
 
 
 /* Estilos para pantallas de 360px o menos */
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   .clients2 {
     background-image: url(../img/clientes-mobile.png);
     padding-bottom: 30px;
