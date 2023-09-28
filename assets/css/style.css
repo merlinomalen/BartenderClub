@@ -1754,17 +1754,20 @@ ul {
 }
 
 
-/* Estilos para pantallas de 360px o menos */
 @media (max-width: 390px) {
   .clients2 {
-    background-image: url(../img/clientes-mobile.png);
-    padding-bottom: 30px;
+    background-image: url(../img/clientes-mobile.png); /* Reemplaza 'nueva-imagen-movil.png' con la ruta de tu nueva imagen de fondo para dispositivos móviles */
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
   }
 
-  .no {
-    display: hidden;
+  .clients2 p {
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
+
 
 .portfolio-details {
   padding-top: 40px;
