@@ -3184,3 +3184,20 @@ section#nueva p {
   font-size: 13px;
   color: #012970;
 }
+
+@media (max-width: 390px) {
+  .footer .footer-newsletter h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px
+  }
+  
+  .footer .footer-newsletter p {
+    font-family: "Yeseva One", sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    color: #0D4037;
+  }
+}
